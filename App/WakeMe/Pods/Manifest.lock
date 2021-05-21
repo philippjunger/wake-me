@@ -1,0 +1,26 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - SwiftCSV (0.5.6)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - Charts
+  - SwiftCSV
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - SwiftCSV
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  SwiftCSV: efb4a15dd7f2f1212b3d6986f97a3369ff6c5100
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: 96bc5e8ab306485fc53468f9b6702213bb6bf14a
+
+COCOAPODS: 1.10.0

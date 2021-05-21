@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0C77B8F579EC005C2AB625 /* Pods_WakeMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BBD1AA69A9678F6B5FC373 /* Pods_WakeMeTests.framework */; };
+		C49F6759BCEA1BB5045EFAF2 /* Pods_WakeMe_WakeMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CAC104F5EBE7753B6EA4DA /* Pods_WakeMe_WakeMeUITests.framework */; };
+		E16353F7255D721F001FEC7B /* Univers_LT_45_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E16353F6255D721F001FEC7B /* Univers_LT_45_Light.ttf */; };
+		E174813325518CD40086F783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174813225518CD40086F783 /* AppDelegate.swift */; };
+		E174813525518CD40086F783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174813425518CD40086F783 /* SceneDelegate.swift */; };
+		E174813725518CD40086F783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174813625518CD40086F783 /* ViewController.swift */; };
+		E174813A25518CD40086F783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E174813825518CD40086F783 /* Main.storyboard */; };
+		E174813D25518CD40086F783 /* WakeMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E174813B25518CD40086F783 /* WakeMe.xcdatamodeld */; };
+		E174813F25518CD50086F783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E174813E25518CD50086F783 /* Assets.xcassets */; };
+		E174814225518CD50086F783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E174814025518CD50086F783 /* LaunchScreen.storyboard */; };
+		E174814D25518CD50086F783 /* WakeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174814C25518CD50086F783 /* WakeMeTests.swift */; };
+		E174815825518CD50086F783 /* WakeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174815725518CD50086F783 /* WakeMeUITests.swift */; };
+		E17481742551A2270086F783 /* Univers_LT_65_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E17481732551A2270086F783 /* Univers_LT_65_Bold.ttf */; };
+		E1FAED0325D9330C003E72EA /* security.caf in Resources */ = {isa = PBXBuildFile; fileRef = E1FAED0225D9330C003E72EA /* security.caf */; };
+		F1725D37E4AA725D25466F45 /* Pods_WakeMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF673248F289D6FF5AC74420 /* Pods_WakeMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E174814925518CD50086F783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E174812725518CD30086F783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E174812E25518CD30086F783;
+			remoteInfo = WakeMe;
+		};
+		E174815425518CD50086F783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E174812725518CD30086F783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E174812E25518CD30086F783;
+			remoteInfo = WakeMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DC1C13226D47E0F5C962FA /* Pods-WakeMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMeTests.release.xcconfig"; path = "Target Support Files/Pods-WakeMeTests/Pods-WakeMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		180E84A9D23A5F1D2FFA9DE3 /* Pods-WakeMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMe.debug.xcconfig"; path = "Target Support Files/Pods-WakeMe/Pods-WakeMe.debug.xcconfig"; sourceTree = "<group>"; };
+		1D608F6996B23ECC704B33ED /* Pods-WakeMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMe.release.xcconfig"; path = "Target Support Files/Pods-WakeMe/Pods-WakeMe.release.xcconfig"; sourceTree = "<group>"; };
+		6EA42FEFA1DC7D9C629B1065 /* Pods-WakeMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMeTests.debug.xcconfig"; path = "Target Support Files/Pods-WakeMeTests/Pods-WakeMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70BBD1AA69A9678F6B5FC373 /* Pods_WakeMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WakeMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CAC104F5EBE7753B6EA4DA /* Pods_WakeMe_WakeMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WakeMe_WakeMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938281F177ECC96A5BDB8BE9 /* Pods-WakeMe-WakeMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMe-WakeMeUITests.release.xcconfig"; path = "Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD0D75E72C3718B1C777A0CF /* Pods-WakeMe-WakeMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeMe-WakeMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E16353F6255D721F001FEC7B /* Univers_LT_45_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Univers_LT_45_Light.ttf; sourceTree = "<group>"; };
+		E174812F25518CD40086F783 /* WakeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E174813225518CD40086F783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E174813425518CD40086F783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E174813625518CD40086F783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E174813925518CD40086F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E174813C25518CD40086F783 /* WakeMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WakeMe.xcdatamodel; sourceTree = "<group>"; };
+		E174813E25518CD50086F783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E174814125518CD50086F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E174814325518CD50086F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E174814825518CD50086F783 /* WakeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E174814C25518CD50086F783 /* WakeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeTests.swift; sourceTree = "<group>"; };
+		E174814E25518CD50086F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E174815325518CD50086F783 /* WakeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E174815725518CD50086F783 /* WakeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITests.swift; sourceTree = "<group>"; };
+		E174815925518CD50086F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17481732551A2270086F783 /* Univers_LT_65_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Univers_LT_65_Bold.ttf; sourceTree = "<group>"; };
+		E1FAED0225D9330C003E72EA /* security.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = security.caf; sourceTree = "<group>"; };
+		FF673248F289D6FF5AC74420 /* Pods_WakeMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WakeMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E174812C25518CD30086F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1725D37E4AA725D25466F45 /* Pods_WakeMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174814525518CD50086F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0C77B8F579EC005C2AB625 /* Pods_WakeMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174815025518CD50086F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49F6759BCEA1BB5045EFAF2 /* Pods_WakeMe_WakeMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50D959440EE784A46161F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF673248F289D6FF5AC74420 /* Pods_WakeMe.framework */,
+				92CAC104F5EBE7753B6EA4DA /* Pods_WakeMe_WakeMeUITests.framework */,
+				70BBD1AA69A9678F6B5FC373 /* Pods_WakeMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E174812625518CD30086F783 = {
+			isa = PBXGroup;
+			children = (
+				E17481732551A2270086F783 /* Univers_LT_65_Bold.ttf */,
+				E16353F6255D721F001FEC7B /* Univers_LT_45_Light.ttf */,
+				E174813125518CD40086F783 /* WakeMe */,
+				E174814B25518CD50086F783 /* WakeMeTests */,
+				E174815625518CD50086F783 /* WakeMeUITests */,
+				E174813025518CD40086F783 /* Products */,
+				EFD46D8BAB2935496070D37C /* Pods */,
+				B50D959440EE784A46161F84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E174813025518CD40086F783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E174812F25518CD40086F783 /* WakeMe.app */,
+				E174814825518CD50086F783 /* WakeMeTests.xctest */,
+				E174815325518CD50086F783 /* WakeMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E174813125518CD40086F783 /* WakeMe */ = {
+			isa = PBXGroup;
+			children = (
+				E174813225518CD40086F783 /* AppDelegate.swift */,
+				E174813425518CD40086F783 /* SceneDelegate.swift */,
+				E174813625518CD40086F783 /* ViewController.swift */,
+				E1FAED0225D9330C003E72EA /* security.caf */,
+				E174813825518CD40086F783 /* Main.storyboard */,
+				E174813E25518CD50086F783 /* Assets.xcassets */,
+				E174814025518CD50086F783 /* LaunchScreen.storyboard */,
+				E174814325518CD50086F783 /* Info.plist */,
+				E174813B25518CD40086F783 /* WakeMe.xcdatamodeld */,
+			);
+			path = WakeMe;
+			sourceTree = "<group>";
+		};
+		E174814B25518CD50086F783 /* WakeMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E174814C25518CD50086F783 /* WakeMeTests.swift */,
+				E174814E25518CD50086F783 /* Info.plist */,
+			);
+			path = WakeMeTests;
+			sourceTree = "<group>";
+		};
+		E174815625518CD50086F783 /* WakeMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E174815725518CD50086F783 /* WakeMeUITests.swift */,
+				E174815925518CD50086F783 /* Info.plist */,
+			);
+			path = WakeMeUITests;
+			sourceTree = "<group>";
+		};
+		EFD46D8BAB2935496070D37C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180E84A9D23A5F1D2FFA9DE3 /* Pods-WakeMe.debug.xcconfig */,
+				1D608F6996B23ECC704B33ED /* Pods-WakeMe.release.xcconfig */,
+				BD0D75E72C3718B1C777A0CF /* Pods-WakeMe-WakeMeUITests.debug.xcconfig */,
+				938281F177ECC96A5BDB8BE9 /* Pods-WakeMe-WakeMeUITests.release.xcconfig */,
+				6EA42FEFA1DC7D9C629B1065 /* Pods-WakeMeTests.debug.xcconfig */,
+				11DC1C13226D47E0F5C962FA /* Pods-WakeMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E174812E25518CD30086F783 /* WakeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E174815C25518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMe" */;
+			buildPhases = (
+				BA54F02945A000E3C0609F59 /* [CP] Check Pods Manifest.lock */,
+				E174812B25518CD30086F783 /* Sources */,
+				E174812C25518CD30086F783 /* Frameworks */,
+				E174812D25518CD30086F783 /* Resources */,
+				A27823E1EF417B38460FAA24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMe;
+			productName = WakeMe;
+			productReference = E174812F25518CD40086F783 /* WakeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E174814725518CD50086F783 /* WakeMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E174815F25518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMeTests" */;
+			buildPhases = (
+				92DB067DF73031414B8B619A /* [CP] Check Pods Manifest.lock */,
+				E174814425518CD50086F783 /* Sources */,
+				E174814525518CD50086F783 /* Frameworks */,
+				E174814625518CD50086F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E174814A25518CD50086F783 /* PBXTargetDependency */,
+			);
+			name = WakeMeTests;
+			productName = WakeMeTests;
+			productReference = E174814825518CD50086F783 /* WakeMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E174815225518CD50086F783 /* WakeMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E174816225518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMeUITests" */;
+			buildPhases = (
+				ADE19CAD5FE21C277A651290 /* [CP] Check Pods Manifest.lock */,
+				E174814F25518CD50086F783 /* Sources */,
+				E174815025518CD50086F783 /* Frameworks */,
+				E174815125518CD50086F783 /* Resources */,
+				876E207277475A87922BF7CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E174815525518CD50086F783 /* PBXTargetDependency */,
+			);
+			name = WakeMeUITests;
+			productName = WakeMeUITests;
+			productReference = E174815325518CD50086F783 /* WakeMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E174812725518CD30086F783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					E174812E25518CD30086F783 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					E174814725518CD50086F783 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E174812E25518CD30086F783;
+					};
+					E174815225518CD50086F783 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E174812E25518CD30086F783;
+					};
+				};
+			};
+			buildConfigurationList = E174812A25518CD30086F783 /* Build configuration list for PBXProject "WakeMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E174812625518CD30086F783;
+			productRefGroup = E174813025518CD40086F783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E174812E25518CD30086F783 /* WakeMe */,
+				E174814725518CD50086F783 /* WakeMeTests */,
+				E174815225518CD50086F783 /* WakeMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E174812D25518CD30086F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FAED0325D9330C003E72EA /* security.caf in Resources */,
+				E174814225518CD50086F783 /* LaunchScreen.storyboard in Resources */,
+				E16353F7255D721F001FEC7B /* Univers_LT_45_Light.ttf in Resources */,
+				E174813F25518CD50086F783 /* Assets.xcassets in Resources */,
+				E174813A25518CD40086F783 /* Main.storyboard in Resources */,
+				E17481742551A2270086F783 /* Univers_LT_65_Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174814625518CD50086F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174815125518CD50086F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		876E207277475A87922BF7CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92DB067DF73031414B8B619A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WakeMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27823E1EF417B38460FAA24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WakeMe/Pods-WakeMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WakeMe/Pods-WakeMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WakeMe/Pods-WakeMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE19CAD5FE21C277A651290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WakeMe-WakeMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA54F02945A000E3C0609F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WakeMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E174812B25518CD30086F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E174813725518CD40086F783 /* ViewController.swift in Sources */,
+				E174813D25518CD40086F783 /* WakeMe.xcdatamodeld in Sources */,
+				E174813325518CD40086F783 /* AppDelegate.swift in Sources */,
+				E174813525518CD40086F783 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174814425518CD50086F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E174814D25518CD50086F783 /* WakeMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E174814F25518CD50086F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E174815825518CD50086F783 /* WakeMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E174814A25518CD50086F783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E174812E25518CD30086F783 /* WakeMe */;
+			targetProxy = E174814925518CD50086F783 /* PBXContainerItemProxy */;
+		};
+		E174815525518CD50086F783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E174812E25518CD30086F783 /* WakeMe */;
+			targetProxy = E174815425518CD50086F783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E174813825518CD40086F783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E174813925518CD40086F783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E174814025518CD50086F783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E174814125518CD50086F783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E174815A25518CD50086F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E174815B25518CD50086F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E174815D25518CD50086F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180E84A9D23A5F1D2FFA9DE3 /* Pods-WakeMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E174815E25518CD50086F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D608F6996B23ECC704B33ED /* Pods-WakeMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E174816025518CD50086F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA42FEFA1DC7D9C629B1065 /* Pods-WakeMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMe.app/WakeMe";
+			};
+			name = Debug;
+		};
+		E174816125518CD50086F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DC1C13226D47E0F5C962FA /* Pods-WakeMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMe.app/WakeMe";
+			};
+			name = Release;
+		};
+		E174816325518CD50086F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0D75E72C3718B1C777A0CF /* Pods-WakeMe-WakeMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeMe;
+			};
+			name = Debug;
+		};
+		E174816425518CD50086F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938281F177ECC96A5BDB8BE9 /* Pods-WakeMe-WakeMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBGUTGA3FA;
+				INFOPLIST_FILE = WakeMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.philippjunger.WakeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E174812A25518CD30086F783 /* Build configuration list for PBXProject "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E174815A25518CD50086F783 /* Debug */,
+				E174815B25518CD50086F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E174815C25518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E174815D25518CD50086F783 /* Debug */,
+				E174815E25518CD50086F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E174815F25518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E174816025518CD50086F783 /* Debug */,
+				E174816125518CD50086F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E174816225518CD50086F783 /* Build configuration list for PBXNativeTarget "WakeMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E174816325518CD50086F783 /* Debug */,
+				E174816425518CD50086F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E174813B25518CD40086F783 /* WakeMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E174813C25518CD40086F783 /* WakeMe.xcdatamodel */,
+			);
+			currentVersion = E174813C25518CD40086F783 /* WakeMe.xcdatamodel */;
+			path = WakeMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E174812725518CD30086F783 /* Project object */;
+}

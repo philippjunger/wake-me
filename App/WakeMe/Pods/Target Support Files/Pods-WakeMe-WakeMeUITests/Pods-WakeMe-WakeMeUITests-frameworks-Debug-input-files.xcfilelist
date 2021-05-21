@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-WakeMe-WakeMeUITests/Pods-WakeMe-WakeMeUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/SwiftCSV/SwiftCSV.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
